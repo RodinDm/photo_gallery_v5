@@ -1,0 +1,26 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    display: flex;
+    margin: auto ;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 2px solid lightgray;
+    width: 60%;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    padding: 1rem;
+}
